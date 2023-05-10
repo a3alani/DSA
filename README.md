@@ -15,6 +15,18 @@ List of Data Structures to cover in C++
 
 # Algorithms
 
+- Search
+- Sort
+- Dynamic Programming
+- Bit Manipulation
+- Recursion
+- Backtracking
+- Graph [BFS, DFS]
+- Greedy
+- Divide and Conquer
+- String
+- Advanced
+
 -------------
 
 # Other

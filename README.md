@@ -19,5 +19,6 @@ List of Data Structures to cover in C++
 
 # Other
 
+- ADT
 - Big O
 - OOP

@@ -1,4 +1,7 @@
 /*
+ * Pros: accessing or reading elements O(1)
+ * Cons: static size, searching O(n)
+ 
  * arrays are passed by reference: pointer to array's first element
  * mo out of bounds check in c++
  * find sort time complexity

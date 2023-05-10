@@ -1,4 +1,4 @@
-# DSA
+# Data Strucutres and Algorithms
 
 List of Data Structures to cover in C++
 

@@ -23,9 +23,6 @@ int main(){
     //declare a vector
     vector<int> vec;
 
-    //initialize a vector
-    vector<int> v1 = {1,2,3};
-
     //access element
     vec.front(); //first
     vec.back(); //last
@@ -47,9 +44,6 @@ int main(){
     //remove element at index
     vec.erase(vec.begin()  + 1);
 
-     //clear vector
-    vec.clear();
-
     //access element
     int first_index = vec[0];
     
@@ -68,10 +62,7 @@ int main(){
     bool check = vec.empty();
 
     //resize
-    vec.resize(10);
-
-    //resize and fill
-    vec.resize(10, 1);
+    vec.resize(10); //size = 10, capacity = 10
   
     //sort
     sort(vec.begin(), vec.end());
@@ -79,27 +70,17 @@ int main(){
     //reverse
     reverse(vec.begin(), vec.end());
 
-    //find
-    auto it = find(vec.begin(), vec.end(), 2);
-
-    //find index
-    int index = distance(vec.begin(), it);
-
     //find max element
     int max = *max_element(vec.begin(), vec.end());
 
     //find min element
     int min = *min_element(vec.begin(), vec.end());
 
-    //find sum of elements
-    int sum = accumulate(vec.begin(), vec.end(), 0);
-
-    //find average of elements
-    int average = sum / vec.size();
-
     //find frequency of element
     int freq = count(vec.begin(), vec.end(), 2);
 
-    //find frequency of element
-    int freq = count(vec.begin(), vec.end(), 2);
+    cout << max;
+
+    //clear vector
+    vec.clear();
 }

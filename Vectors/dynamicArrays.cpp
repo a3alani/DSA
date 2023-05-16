@@ -23,14 +23,14 @@ int main(){
     //declare a vector
     vector<int> vec;
 
-    //access element
-    vec.front(); //first
-    vec.back(); //last
-
     //add element
     vec.push_back(4);
     vec.push_back(5);
     vec.push_back(6);
+
+    //access element
+    cout << vec.front(); //first
+    cout << vec.back(); //last
 
     //remove last element
     vec.pop_back();

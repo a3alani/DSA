@@ -24,10 +24,10 @@ int main(){
     /* operations */
 
     //get element at index
-    int index_1 = data[0]; 
+    int first_index = data[0]; 
 
     //re-assign
-    data[1] = 0; //new data array --> {6,0,9}
+    data[1] = 0; //new data array --> {6,0,9,0}
 
     //size of array
     int length = sizeof(data) / sizeof(*data);
@@ -53,7 +53,6 @@ int main(){
     //sort
     sort(data, data+length); //memory address (sequential)    
 
-    
     //nested arrays
     int matrix[2][3] = {
         {1,2,3},
@@ -68,4 +67,8 @@ int main(){
         }
     }
 
+    //passing array to function
+    int sumArray(int arr[], int size){
+        return arr[0] + arr[1] + arr[2];
+    }
 }

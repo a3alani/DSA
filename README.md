@@ -1,15 +1,22 @@
 # Data Strucutres and Algorithms
 
-List of Data Structures to cover in C++
+## List of Data Structures to cover in C++
 
-- Array / Vector
-- Linkedlist
-- Stack
-- Heap
-- HashMap / HashTable
-- Set
-- Tree
-- Graph
+Built-in:
+- Arrays
+- Vectors
+- Lists (Doubly LinkedLists)
+- Stacks
+- Queues
+- Deques 
+- Maps (unordered and multi)
+- Sets (unordered)
+
+Other
+- LinkedLists
+- Trees
+- Graphs
+- Heaps
 
 -------------
 

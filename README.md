@@ -1,22 +1,23 @@
-# Data Strucutres and Algorithms
+# Data Structures and Algorithms
 
 ## List of Data Structures to cover in C++
 
 Built-in:
-- Arrays
-- Vectors
+- Arrays 
+- Vectors (Dynamic Arrays / LinkedLists)
+- Forward_List (Singly LinkedLists)
 - Lists (Doubly LinkedLists)
 - Stacks
-- Queues
+- Queues [Priority_Queue]
 - Deques 
-- Maps (unordered and multi)
-- Sets (unordered)
+- Maps [unordered / multi]
+- Sets [unordered / multi]
 
 Other
-- LinkedLists
 - Trees
 - Graphs
 - Heaps
+- Trie
 
 -------------
 

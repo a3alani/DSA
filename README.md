@@ -2,7 +2,7 @@
 
 ## List of Data Structures to cover in C++
 
-Built-in:
+STL (Standard Template Library) 
 - Arrays 
 - Vectors (Dynamic Arrays / LinkedLists)
 - Forward_List (Singly LinkedLists)

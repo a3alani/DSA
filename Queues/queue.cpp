@@ -11,17 +11,21 @@ int main(){
     nums.push(5);
     nums.push(7);
 
-    cout << "Queue size: " << nums.size() << endl;
-    cout << "Queue front: " << nums.front() << endl;
-    cout << "Queue back: " << nums.back() << endl;
+    /* 1 3 5 7 */
+    
+    nums.pop(); // pop 1
 
-    nums.pop();
-    cout << "Queue size: " << nums.size() << endl;
-    cout << "Queue front: " << nums.front() << endl;
-    cout << "Queue back: " << nums.back() << endl;
+    cout << "Queue front: " << nums.front() << endl; //expexted 3
+    cout << "Queue back: " << nums.back() << endl; //expected 7
+
+    cout << "Queue size: " << nums.size() << endl; //expected 3
+
+    cout << "Queue empty: " << nums.empty() << endl; //expected 0
 
     while(!nums.empty()){
         cout << nums.front() << endl;
         nums.pop();
     }
+
+    /* 3 5 7 */
 }

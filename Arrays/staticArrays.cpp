@@ -67,8 +67,6 @@ int main(){
         }
     }
 
-    //passing array to function
-    int sumArray(int arr[], int size){
-        return arr[0] + arr[1] + arr[2];
-    }
+    cout << rows << "\n";
+    cout << cols << "\n";
 }
